@@ -1,0 +1,9 @@
+query QueryPosts {
+  posts {
+    ...PostFragment
+  }
+}
+
+fragment PostFragment on Post {
+  id
+}
